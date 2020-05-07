@@ -275,7 +275,7 @@ install_freeswitch_for_astpp ()
 		# Download latest freeswitch version
 		cd /usr/local/src		
 		git config --global pull.rebase true
-		git clone -b v1.6.19 https://freeswitch.org/stash/scm/fs/freeswitch.git
+		git clone -b v1.6.20 https://github.com/signalwire/freeswitch.git
 		cd freeswitch
 		./bootstrap.sh -j
 		# Edit modules.conf
